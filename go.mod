@@ -10,6 +10,11 @@ require (
 	gitlab.com/nvidia/cloud-native/go-nvlib v0.0.0-20221121203940-a27e593595a0
 )
 
+
+replace (
+	github.com/NVIDIA/k8s-device-plugin => github.com/telemaco019/k8s-device-plugin v0.0.0-20221222172514-a08db4c40f7b
+)
+
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
